@@ -109,7 +109,6 @@ def get_reply_markup(query):
         ], [
             InlineKeyboardButton('❤️Backup Channel❤️', url='https://t.me/moviehub1751')
         ]
-    return InlineKeyboardMarkup(buttons)
 
 
 
