@@ -406,9 +406,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🔥 Movie Channel 🔥', url='https://t.me/+B1Fesigo2xAyNTg1')
+            InlineKeyboardButton('🔥Movie Channel🔥', url='https://t.me/+B1Fesigo2xAyNTg1')
         ], [
-            InlineKeyboardButton('❤️Backup Channel❤️', url=https://t.me/moviehub1751')
+            InlineKeyboardButton('❤️Backup Channel❤️', url='https://t.me/moviehub1751')
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/SK_Movies1')
@@ -434,9 +434,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('📈Status', callback_data='stats')
         ], [
-            InlineKeyboardButton('🔥 Movie Channel 🔥', url='https://t.me/+B1Fesigo2xAyNTg1')
+            InlineKeyboardButton('🔥Movie Channel🔥', url='https://t.me/+B1Fesigo2xAyNTg1')
         ], [
-            InlineKeyboardButton('❤️Backup Channel❤️', url=https://t.me/moviehub1751')
+            InlineKeyboardButton('❤️Backup Channel❤️', url='https://t.me/moviehub1751')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -452,9 +452,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('🔐 Close', callback_data='close_data')
         ], [
-            InlineKeyboardButton('🔥 Movie Channel 🔥', url='https://t.me/+B1Fesigo2xAyNTg1')
+            InlineKeyboardButton('🔥Movie Channel🔥', url='https://t.me/+B1Fesigo2xAyNTg1')
         ], [
-            InlineKeyboardButton('❤️Backup Channel❤️', url=https://t.me/moviehub1751')
+            InlineKeyboardButton('❤️Backup Channel❤️', url='https://t.me/moviehub1751')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
