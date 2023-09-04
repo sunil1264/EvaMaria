@@ -377,7 +377,7 @@ def humanbytes(size):
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B'
 
 
-async def get_shortlink(link):
+""""async def get_shortlink(link):
     https = link.split(":")[0]
     if "http" == https:
         https = "https"
@@ -400,6 +400,6 @@ async def get_shortlink(link):
     except Exception as e:
         logger.error(e)
         return f'{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
-
+""""
 
 
