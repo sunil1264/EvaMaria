@@ -70,12 +70,12 @@ async def start(client, message):
             return
         btn = [
             
-                [
-                InlineKeyboardButton("🤖 Join Update Channel", url='https://shrinke.me/6gb95B')
-                ]          
-        #   [InlineKeyboardButton(
-          #          "🤖 Join Updates Channel", url=invite_link.invite_link
-         #       ) ]
+               # [
+            #    InlineKeyboardButton("🤖 Join Update Channel", url='https://shrinke.me/6gb95B')
+             #   ]          
+          [InlineKeyboardButton(
+                  "🤖 Join Updates Channel", url=invite_link.invite_link
+              ) ]
        
             
         ]
