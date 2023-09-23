@@ -63,11 +63,7 @@ async def next_page(bot, query):
     settings = await get_settings(query.message.chat.id)
     if settings['button']:
         btn = [
-         #   [
-           #     InlineKeyboardButton(
-           #         text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
-           #     ),
-          #  ]
+      
               [
                 InlineKeyboardButton(
                     text=f"[{get_size(file.file_size)}] {file.file_name}", 
@@ -78,15 +74,7 @@ async def next_page(bot, query):
         ]
     else:
         btn = [
-        #    [
-        #        InlineKeyboardButton(
-        #            text=f"{file.file_name}", callback_data=f'files#{file.file_id}'
-        #        ),
-       #         InlineKeyboardButton(
-        #            text=f"{get_size(file.file_size)}",
-       #             callback_data=f'files_#{file.file_id}',
-        #        ),
-        #    ]
+       
               [
                 InlineKeyboardButton(
                     text=f"[{get_size(file.file_size)}] {file.file_name}", 
@@ -671,8 +659,7 @@ async def auto_filter(client, msg, spoll=False):
             [
                 InlineKeyboardButton(
                     text=f"[{get_size(file.file_size)}] {file.file_name}",
-                    # callback_data=f'{pre}#{file.file_id}',
-                    url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
+                  url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                
                 ),
             ]
@@ -683,13 +670,11 @@ async def auto_filter(client, msg, spoll=False):
             [
                 InlineKeyboardButton(
                     text=f"{file.file_name}",
-                 #  callback_data=f'{pre}#{file.file_id}',
                     url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                
                 ),
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)}",
-                   # callback_data=f'{pre}#{file.file_id}',
                     url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                
                 ),
