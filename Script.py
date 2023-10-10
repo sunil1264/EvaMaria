@@ -5,7 +5,7 @@ class script(object):
     HELP_TXT = """𝐇𝐄𝐘 {}
 𝐇𝐄𝐑𝐄 𝐈𝐒 𝐓𝐇𝐄 𝐇𝐄𝐋𝐏 𝐅𝐎𝐑 𝐌𝐘 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒."""
     ABOUT_TXT = """✯ 𝐌𝐘 𝐍𝐀𝐌𝐄: {}
-✯ 𝐂𝐑𝐄𝐀𝐓𝐎𝐑: <a href=https://t.me/SK_Movies1>𝐒𝐔𝐍𝐈𝐋 𝐊𝐔𝐌𝐀𝐑</a>
+✯ 𝐂𝐑𝐄𝐀𝐓𝐎𝐑: <a href=https://t.me/SKContactbot>𝐒𝐔𝐍𝐈𝐋 𝐊𝐔𝐌𝐀𝐑</a>
 ✯ 𝐋𝐈𝐁𝐑𝐀𝐑𝐘: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝐋𝐀𝐍𝐆𝐔𝐀𝐆𝐄: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ✯ 𝐃𝐀𝐓𝐀 𝐁𝐀𝐒𝐄: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
